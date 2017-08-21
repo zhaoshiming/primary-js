@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.header-live {
+    height: 30px;
+}
+.fixed-head-live {
+    background: #000;
+    opacity: 1;
+    position: fixed;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.fixed-head-live p{
+    color: #fff;
+}
+.small-text {
+    font-size: 13px;
+}
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+}
+.mock-video {
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.main-content {
+    padding-top: 230px;
+}
+.nav {
+    margin-top: -40px;
+    height: 40px;
+    border-bottom: solid #DCDCDC .2px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.nav .nav-flex {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-active {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ff7700;
+}
+.nav a {    
+    color: #ff7700;
+}
+/* talk */
+.speak {
+    width: 100%;
+    /* display: block; */
+    padding-bottom: 40px;
+}
+.talk {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px 8px 8px 4px;
+}
+/* introduce  */
+.introduce-live {
+    display: none;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.part-introduce {
+    height: 30px;
+    line-height: 30px;
+}
+.part-introduce-detail {
+    padding-left: 10px;
+}
+.introduce-live .part-introduce::before {
+    content: ' ';
+    display: inline;
+    width: 0;
+    height: 0;
+    border:solid 2px red;
+    margin-right: 10px;
+}
+
+
+/*  foot part */
+.fix-foot {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+.flex3{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: solid #ff7700 .4px;
+    border-top: solid #ff7700 .4px;
+    border-bottom: solid #ff7700 .4px;
+}
+.flex1 {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff7700;
+}
+
+.flex3 input {
+    width: 98%;
+    height: 38px;
+    outline: none;
+    padding-left: 5px;
+    border: none;
+}

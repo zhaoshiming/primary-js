@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <!-- 这里放置头部 -->
+    <!-- <div class="header-live">
+        <div class="fixed-head-live">
+            <p>hello</p>
+        </div>
+    </div> -->
+    <div style="position: relative">
+        <div class="container">
+            <div class="video">
+                <div class="mock-video">
+                    <!-- video goes heres -->
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="nav">
+                    <div class="nav-flex nav-active"><a>聊天</a></div>
+                    <div class="nav-flex"><a>简介</a></div>
+                </div>
+                <div class="speak">
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>2</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>哈哈哈，大傻逼哈哈哈哈</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>1</span>
+                    </div>
+                    <div class="talk">
+                        <span>name:</span>
+                        <span class='small-text'>e</span>
+                    </div>
+
+                </div>
+                <div class="introduce-live">
+                    <div class="part-introduce">
+                        <span>简介部分</span>
+                    </div>
+                    <div class="part-introduce-detail">
+                        <p>asasasa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fix-foot">
+                <div class="flex3">
+                    <input type="text" name="" value="" id='input'>
+                </div>
+                <div class="flex1">
+                    <a href="#" class="send-message">发送</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    window.onload = function () {
+        var height = document.body.scrollHeight;
+        document.body.scrollTop = height;
+
+        var chat = document.getElementsByClassName('nav-flex')[0];
+        var introduce = document.getElementsByClassName('nav-flex')[1];
+        var send_message = document.getElementsByClassName('send-message')[0];
+        var speak = document.getElementsByClassName('speak')[0];
+        var introduce_live = document.getElementsByClassName('introduce-live')[0];
+        var container = document.getElementsByClassName('container')[0];
+        var foot = document.getElementsByClassName('fix-foot')[0];
+
+        chat.onclick = function () {
+            
+            this.setAttribute("class", 'nav-active');
+            introduce.setAttribute("class", 'nav-flex');
+            speak.style.display = 'block';
+            introduce_live.style.display = 'none';
+            foot.style.display = 'flex';
+            var height = document.body.scrollHeight;
+            document.body.scrollTop = height;
+        }
+        introduce.onclick = function () {
+            console.log('click2');
+            this.setAttribute("class", 'nav-active');
+            chat.setAttribute("class", 'nav-flex');
+            speak.style.display = 'none';
+            introduce_live.style.display = 'block';
+            foot.style.display = 'none';
+        }
+        send_message.onclick = function () {
+            var value = document.getElementById('input').value;
+            if (value == '') {
+                return false;
+            }
+            document.getElementById('input').value = '';
+
+            var div1 = document.createElement('div');
+            var span1 = document.createElement('span');
+            var span2 = document.createElement('span');
+            var node1 = document.createTextNode('name:');
+            var node2 = document.createTextNode(value);
+            span1.appendChild(node1);
+            span2.appendChild(node2);
+            span2.setAttribute('class', 'small-text');
+            div1.setAttribute('class', 'talk');
+            div1.appendChild(span1);
+            div1.appendChild(span2);
+            speak.appendChild(div1);
+
+            var height = document.body.scrollHeight;
+            document.body.scrollTop = height;
+            return false;
+        }
+
+
+    }
+</script>
+
+</html>
