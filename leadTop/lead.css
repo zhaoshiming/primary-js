@@ -1,0 +1,49 @@
+/* flex布局在低版本或不支持的情况下的处理办法
+https://segmentfault.com/n/1330000009679192
+https://github.com/lzxb/flex.css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.mobile-top-lead-wrap {
+    height: 45px;
+}
+.mobile-top-lead {
+    display: flex;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.mobile-top-head-flex1 {
+    flex: 1;
+    display: flex;
+    background: #191414;
+    color: #fff;
+}
+
+.mobile-top-head-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mobile-top-head-center {
+    justify-content: center;
+    align-items: center;
+}
+.mobile-top-head-center p {
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mobile-top-head-start .arrow-back {
+    width: 0;
+    height: 0;
+    border-left: 10px #191414 solid;
+    border-right: 15px #ffffff solid;
+    border-top: 10px #191414 solid;
+    border-bottom: 10px #191414 solid;
+}
