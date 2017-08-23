@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.siamess-left {
+    position: relative;
+}
+.siamess-left::after {
+    content: "";
+    /* width: 5px; */
+    border: solid 10px #fff;
+    border-top: solid 10px red;
+    position: absolute;
+    top: 7px;
+    right: -25px;
+    bottom: 0;
+    background-color: #008fb5;
+}
+.siamess-left::before {
+	content: "";
+	width: 5px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: -10px;
+	bottom: 0;
+}
